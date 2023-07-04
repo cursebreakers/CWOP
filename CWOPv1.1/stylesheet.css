@@ -1,0 +1,26 @@
+
+* {
+    font-family: 'Helvetica', 'Arial', 'Sans serif'
+}
+
+.header {
+    text-align: center;
+}
+
+.versiontag {
+    text-align: right;
+}
+
+.prompt1 {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.construction {
+    background-color: grey;
+    color: white;
+}
+.footer {
+    font-size: 12px;
+    text-align: right;
+}
