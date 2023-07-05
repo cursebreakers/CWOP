@@ -11,8 +11,9 @@ body {
     margin: auto;
 }
 
-.box {
- 
+box {
+    background-color: #101204;
+    padding: 10%;
 }
 
 .header {
@@ -38,9 +39,13 @@ body {
     font-family: monospace;
 }
 
-#logolink,
-.logo {
-    height: 256px;    
+.app {
+    margin-left: 5%;
+}
+
+.logolink {
+    height: 256px;
+    padding: 7%;
 }
 
 .footer {
