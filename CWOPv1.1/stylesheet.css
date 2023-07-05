@@ -20,7 +20,13 @@
     background-color: grey;
     color: white;
 }
+
+.logo {
+
+}
+
 .footer {
     font-size: 12px;
     text-align: right;
+    background-color: #808080;
 }
