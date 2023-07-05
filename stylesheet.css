@@ -3,34 +3,49 @@
     font-family: 'Helvetica', 'Arial', 'Sans serif'
 }
 
-#appstatus {
-    font-family: sans serif;
+body {
+    background-color: #1D2125;
+    border-color: #101204;
+    color: #B6C2CF;
+    padding: 0%;
+    margin: auto;
+}
+
+.box {
+ 
 }
 
 .header {
     text-align: center;
 }
 
-.versiontag {
-    text-align: right;
+.p1 {
+    font-size: 16px;
+    padding: 3%;
 }
 
-.prompt1 {
-    font-style: italic;
-    font-size: 24px;
+.versiontag {
+    text-align: right;
+    color: whitesmoke
 }
 
 .construction {
-    background-color: #808080;
-    color: white;
+    background-color: #B6C2CF;
+    color: rgb(0, 0, 0);
 }
 
-.logo {
+#appstatus {
+    font-family: monospace;
+}
 
+#logolink,
+.logo {
+    height: 256px;    
 }
 
 .footer {
     font-size: 12px;
     text-align: right;
-    background-color: #808080;
+    background-color: #B6C2CF;
+    color: rgb(0, 0, 0)
 }
