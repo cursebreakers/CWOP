@@ -11,9 +11,8 @@ body {
     margin: auto;
 }
 
-box {
-    background-color: #101204;
-    padding: 10%;
+.block {
+
 }
 
 .header {
@@ -27,11 +26,13 @@ box {
 
 .versiontag {
     text-align: right;
+    margin-right: 1%;
     color: whitesmoke
 }
 
 .construction {
     background-color: #B6C2CF;
+    padding-left: .5%;
     color: rgb(0, 0, 0);
 }
 
@@ -40,12 +41,20 @@ box {
 }
 
 .app {
-    margin-left: 5%;
+    margin-left: auto;
 }
 
 .logolink {
     height: 256px;
     padding: 7%;
+}
+
+.projlnk {
+    color:#B6C2CF
+}
+
+.wbtlnk {
+    color:#B6C2CF
 }
 
 .footer {
