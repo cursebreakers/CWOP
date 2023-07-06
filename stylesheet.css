@@ -38,15 +38,10 @@ body {
     flex: 1
     display: flex;
     color: #B6C2CF;
-    padding: 3px;
 }
 
 .platform {
     display: flex;
-}
-
-.greeting {
-    flex: 1;
 }
 
 .p1 {
