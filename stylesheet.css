@@ -11,7 +11,7 @@ body {
 
 .header {
     text-align: center;
-    color: #91C7B1;
+    color: #5ADEE1;
 }
 
 .navbar {
@@ -37,10 +37,11 @@ body {
 .versiontag {
     flex: 1
     display: flex;
-    color: #B6C2CF;
+    color: #5ADEE1;
 }
 
 .platform {
+    background-color: #050607;
     display: flex;
 }
 
@@ -51,7 +52,7 @@ body {
 }
 
 .construction {
-    background-color: #B7ACAF;
+    background-color: #B6C2CF;
     padding-left: .5%;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -63,6 +64,7 @@ body {
 
 .app {
     margin-left: auto;
+    color: #B6C2CF;
 }
 
 .logopanel {
@@ -91,6 +93,6 @@ body {
     padding-right: 6px;
     margin: auto;
     height: 14px;
-    background-color: #B7ACAF;
+    background-color: #B6C2CF;
     color: rgb(0, 0, 0)
 }
