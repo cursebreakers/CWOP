@@ -17,8 +17,10 @@ body {
 .navbar {
     display: flex;
     margin: auto;
+    height: 28px;
     background-color: #1D2125;
     padding: 3px
+    
 }
 
 .navbox {
@@ -30,7 +32,7 @@ body {
 
 .navbut {
     flex: 1;
-    padding: 3px;
+    padding: auto;
     background-color: #1D2125;
     color: #B6C2CF;
 }
