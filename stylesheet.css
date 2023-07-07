@@ -14,7 +14,6 @@ body {
     color: #5ADEE1;
 }
 
-
 .navbar {
     display: flex;
     margin: auto;
@@ -59,22 +58,16 @@ body {
     margin: 12px;
 }
 
-.app {
-    font-size: 16px;
-    color: #B6C2CF;
+.opsfeed {
+    display: flex;
+    flex: 1;
 }
 
-.logopanel {
-    display: flex;
-    justify-content: center;
+
+.feedlink {
+    color:#B6C2CF
 }
 
-.logolink {
-    display: flex;
-    flex: .33;
-    height: auto;
-    padding: 7%;
-}
 
 .projlnk {
     color:#B6C2CF
@@ -82,6 +75,35 @@ body {
 
 .wbtlnk {
     color:#B6C2CF
+}
+
+
+.panel {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logolink {
+    display: flex;
+    flex: .33;
+    height: auto;
+    padding: 16px;
+}
+
+.applink {
+    font-size: 16px;
+    color: #B6C2CF;
+}
+
+.cclink {
+    font-size: 16px;
+    color: #B6C2CF;
+}
+
+.reportlink {
+    font-size: 16px;
+    color: #B6C2CF; 
 }
 
 .footer {
@@ -113,8 +135,11 @@ body {
     color:#000000
 }
 
-.admintag {
-    text-align: center;
+.appstatus4{
+    font-family: monospace;
+    padding: 1px;
+    color: #000000;
+    background-color: #B33951;
 }
 
 .construction {
