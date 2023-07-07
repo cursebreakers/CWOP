@@ -99,6 +99,20 @@ body {
     font-family: monospace;
 }
 
+.appstatus2 {
+    font-family: monospace;
+    background-color: aquamarine;
+    padding: 1px;
+    color:#000000
+}
+
+.appstatus3 {
+    font-family: monospace;
+    background-color: goldenrod;
+    padding: 1px;
+    color:#000000
+}
+
 .construction {
     background-color: #B6C2CF;
     padding-left: .5%;
