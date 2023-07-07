@@ -114,6 +114,10 @@ body {
     color:#000000
 }
 
+.admintag {
+    text-align: center;
+}
+
 .construction {
     background-color: #B6C2CF;
     padding-left: .5%;
