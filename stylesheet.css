@@ -259,19 +259,23 @@ body {
 
 .panel {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     background-color: #111111;
+    height: auto;
+    padding: 28px;
     width: auto;
 }
 
 
 .logolink {
     display: flex;
-    justify-content: center;
-    flex: auto;
+    flex: .33 5 0;
     height: auto;
-    width: 128px;
-    padding: 12px;
+    max-width: 300px;
+    margin: 12px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #111111;
 }
 
 .applink {
