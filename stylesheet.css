@@ -10,22 +10,13 @@ body {
     margin: auto;
 }
 
-.ccbody {
-    display: flex;
-    flex-direction: column;
-    background-color: #111111;
-    border: 8px #B6C2CF;
-    color: #000000;
-    padding: 0px;
-    margin: 0;
-}
-
 .header {
     text-align: center;
     color: #5ADEE1;
     font-size: 26px;
     text-shadow: 2px 2px 2px #111111;
 }
+
 
 .navbar {
     display: flex;
@@ -99,11 +90,16 @@ body {
 }
 
 
-.panel {
+.ccbody {
     display: flex;
-    justify-content: center;
-    background-color: #1D2125;
+    flex-direction: column;
+    background-color: #111111;
+    border: 8px #B6C2CF;
+    color: #000000;
+    padding: 0px;
+    margin: 0;
 }
+
 
 .ccheader {
     display: flex;
@@ -141,6 +137,117 @@ body {
     box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
+
+.colbody {
+    margin: 0;
+    background-color: #54494B;
+}
+
+.colheader{
+    margin: 0;
+    background-color: #111111;
+    color: #FCFCFC;
+    display: flex;
+    flex-direction: column;
+    text-shadow: .5px .5px .5px #111111;
+}
+
+.sunsetbar1 {
+    display: flex;
+    flex: auto;
+    background-color: #4C3549;
+    color: #FCFCFC;
+}
+.sunsetbar2{
+    display: flex;
+    flex: auto;
+    background-color: #91C7B1;
+}
+.sunsetbar3 {
+    display: flex;
+    flex: auto;
+    background-color: #E2D391;
+}
+
+.sunsetbar4 {
+    display: flex;
+    flex: auto;
+    background-color: #742511;
+}
+
+.sunsetbar5 {
+        display: flex;
+        flex: .5 .5 auto;
+        background-color: #B33951;
+        color: #111111;
+        height: 18px;
+}
+
+
+.colhead {
+    display: flex;
+    flex-direction: column;
+    background-color: #E2D391;
+    color: #111111;
+    font-size: 12px;
+    padding: 3px;
+    margin: 4px #000000;
+    box-shadow: 1px 1px 1px #000000;
+}
+
+.colbase {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: #91C7B1;
+    color: #000000;
+    font-size: 18px;
+    padding: 2px;
+    margin: 4px;
+    box-shadow: 2px 2px 2px 2px #000000;
+}
+
+.colplatform {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: #B33951;
+    color: #000000;
+    font-size: 14px;
+    padding: 4px;
+    margin: 4px;
+    box-shadow: 1px 1px 1px #111111;
+}
+
+.coltray {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #F1F7ED;
+    color:#000000;
+    font-size: 18px;
+    padding: 6px;
+    margin: 4px #000000;
+    box-shadow: 1px 1px 1px #111111;
+    flex-direction: column;
+}
+
+.p3 {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #E2D391;
+    padding: 4px;
+    margin: 4px;
+    box-shadow: 2px 2px 2px #111111;
+}
+
+
+.panel {
+    display: flex;
+    justify-content: center;
+    background-color: #1D2125;
+}
+
+
 .logolink {
     display: flex;
     flex: .33;
@@ -149,6 +256,12 @@ body {
 }
 
 .applink {
+    font-size: 16px;
+    color: #B6C2CF;
+    font-size: 18px;
+}
+
+.colosseum {
     font-size: 16px;
     color: #B6C2CF;
     font-size: 18px;
