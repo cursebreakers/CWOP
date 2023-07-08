@@ -4,16 +4,16 @@
 }
 
 @font-face {
-    font-family: 'agrandir';
-    src: url(./resources/fonts/Agrandir\ Narrow\ 400.otf)
+    font-family: 'cooperhewitt';
+    src: url(./resources/fonts/cooper-hewitt.book.otf)
 }
 
 .title {
-    font-family: 'agrandir';
+    font-family: 'cooperhewitt';
     text-align: center;
     color: #5ADEE1;
     font-size: 48px;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 1px 1px 1px #1D2125;
 }
 
 body {
