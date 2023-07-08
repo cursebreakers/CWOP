@@ -7,16 +7,17 @@ body {
     background-color: #111111;
     border-color: #101204;
     color: #B6C2CF;
+    margin: auto;
 }
 
 .ccbody {
     display: flex;
     flex-direction: column;
-    background-color: #1D2125;
+    background-color: #111111;
     border: 8px #B6C2CF;
     color: #000000;
     padding: 0px;
-    margin: 0px;
+    margin: 0;
 }
 
 .header {
@@ -104,6 +105,7 @@ body {
     border: 8px #5ADEE1;
     margin-top: 0;
     margin-bottom: 0;
+    box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
 .ccplatform {
@@ -113,10 +115,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
-    padding: 8px;
+    padding: 6px;
     flex-direction: column;
-    margin: 0px;
+    margin: 8px;
     margin-top: 0px;
+    box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
 .p2 {
@@ -125,7 +128,8 @@ body {
     font-size: 16px;
     padding: 12px;
     background-color: #FCFCFC;
-    border: 2px solid ;
+    border: 2px solid;
+    box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
 .logolink {
