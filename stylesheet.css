@@ -23,6 +23,7 @@ body {
 .header {
     text-align: center;
     color: #5ADEE1;
+    font-size: 22px;
 }
 
 .navbar {
@@ -30,26 +31,28 @@ body {
     margin: auto;
     height: 28px;
     background-color: #1D2125;
-    padding: 3px
+    padding: 2px;
 }
 
 .navbox {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     background-color: #101204;
     justify-items: center;
 }
 
 .navbut {
-    flex: 1;
+    flex: 1 .5 auto;
     padding: auto;
     background-color: #1D2125;
     color: #B6C2CF;
 }
 
 .versiontag {
+    flex-wrap: wrap;
+    flex: 1 2 0;
     color: #5ADEE1;
-    padding: 3px;
+    padding: 2px;
 }
 
 .platform {
@@ -64,7 +67,7 @@ body {
 .p1 {
     display: flex;
     flex: 1 1 auto;
-    font-size: 16px;
+    font-size: 18px;
     padding: 12px;
     background-color: #111111;
     margin: 12px;
@@ -142,16 +145,19 @@ body {
 .applink {
     font-size: 16px;
     color: #B6C2CF;
+    font-size: 18px;
 }
 
 .cclink {
     font-size: 16px;
     color: #B6C2CF;
+    font-size: 18px;
 }
 
 .reportlink {
     font-size: 16px;
     color: #B6C2CF; 
+    font-size: 18px;
 }
 
 .footer {
@@ -195,4 +201,5 @@ body {
     padding-left: .5%;
     color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 15px;
 }
