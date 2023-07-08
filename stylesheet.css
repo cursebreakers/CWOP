@@ -3,6 +3,19 @@
     font-family: 'Helvetica', 'Arial', 'Sans serif'
 }
 
+@font-face {
+    font-family: 'agrandir';
+    src: url(./resources/fonts/Agrandir\ Narrow\ 400.otf)
+}
+
+.title {
+    font-family: 'agrandir';
+    text-align: center;
+    color: #5ADEE1;
+    font-size: 48px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
 body {
     background-color: #111111;
     border-color: #1D2125;
@@ -239,7 +252,6 @@ body {
     margin-bottom: 10px;
     box-shadow: 1px 1px 1px #000000;
 }
-
 
 
 .colbase {
