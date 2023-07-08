@@ -8,6 +8,7 @@ body {
     border-color: #1D2125;
     color: #B6C2CF;
     margin: auto;
+    min-width: device;
 }
 
 .header {
@@ -260,14 +261,17 @@ body {
     display: flex;
     justify-content: center;
     background-color: #111111;
+    width: auto;
 }
 
 
 .logolink {
     display: flex;
-    flex: .33;
+    justify-content: center;
+    flex: auto;
     height: auto;
-    padding: 16px;
+    width: 128px;
+    padding: 12px;
 }
 
 .applink {
