@@ -5,7 +5,7 @@
 
 body {
     background-color: #111111;
-    border-color: #101204;
+    border-color: #1D2125;
     color: #B6C2CF;
     margin: auto;
 }
@@ -23,22 +23,25 @@ body {
 .header {
     text-align: center;
     color: #5ADEE1;
-    font-size: 22px;
+    font-size: 26px;
+    text-shadow: 2px 2px 2px #111111;
 }
 
 .navbar {
     display: flex;
     margin: auto;
-    height: 28px;
-    background-color: #1D2125;
-    padding: 2px;
+    height: 34px;
+    background-color: #111111;
+    padding: 1px;
 }
 
 .navbox {
     display: flex;
     flex: 1 1 auto;
-    background-color: #101204;
-    justify-items: center;
+    background-color: #000000;
+    justify-items: start;
+    padding: 0px;
+    height: 32px;
 }
 
 .navbut {
@@ -46,12 +49,15 @@ body {
     padding: auto;
     background-color: #1D2125;
     color: #B6C2CF;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .versiontag {
     flex-wrap: wrap;
-    flex: 1 2 0;
+    background-color: #101204;
+    flex: 1 8 0;
     color: #5ADEE1;
+    width: auto;
     padding: 2px;
 }
 
@@ -114,7 +120,7 @@ body {
 .ccplatform {
     background-color: #FCFCFC;
     border: 6px solid #B33951;
-    color:#000000;
+    color: #000000;
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 auto;
