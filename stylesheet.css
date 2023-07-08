@@ -8,6 +8,11 @@
     src: url(./resources/fonts/cooper-hewitt.book.otf)
 }
 
+@font-face {
+    font-family: 'cooperbold';
+    src: url(./resources/fonts/cooper-hewitt.bold.otf)
+}
+
 .title {
     font-family: 'cooperhewitt';
     text-align: center;
@@ -26,6 +31,7 @@ body {
 
 .header {
     text-align: center;
+    font-family: 'cooperhewitt';
     color: #5ADEE1;
     font-size: 26px;
     text-shadow: 2px 2px 2px #111111;
@@ -78,20 +84,36 @@ body {
 .p1 {
     display: flex;
     flex: 1 1 auto;
+    flex-direction: column;
     font-size: 18px;
     padding: 12px;
     background-color: #111111;
     margin: 12px;
 }
 
-.opsfeed {
+.feedtray {
     display: flex;
-    flex: 1;
+    background-color: #101204;
+    flex: 1 1 auto;
+    padding: 2px;
+    width: auto;
+    font-family: 'cooperbold';
 }
 
+.opsfeed {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    padding: 2px;
+}
 
-.feedlink {
-    color:#B6C2CF
+.feedlnk {
+    font-family: 'cooperhewitt';
+    display: flex;
+    flex-wrap: wrap;
+    color:#5ADEE1;
 }
 
 
