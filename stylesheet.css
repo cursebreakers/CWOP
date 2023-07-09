@@ -40,6 +40,7 @@ body {
 
 .navbar {
     display: flex;
+    flex: 1 1 1;
     margin: auto;
     height: 34px;
     background-color: #111111;
@@ -50,17 +51,23 @@ body {
     display: flex;
     flex: 1 1 auto;
     background-color: #000000;
-    justify-items: start;
+    justify-items: end;
     padding: 0px;
     height: 32px;
 }
 
 .navbut {
-    flex: 1 .5 auto;
+    flex: 3 1 auto;
     padding: auto;
     background-color: #1D2125;
     color: #B6C2CF;
     text-shadow: 2px 2px 2px #000000;
+}
+
+.navstatus {
+    display: flex;
+    flex: 1 1 auto;
+    max-width: auto;
 }
 
 .versiontag {
@@ -89,13 +96,16 @@ body {
     padding: 12px;
     background-color: #111111;
     margin: 12px;
+    width: auto;
+    height: fit-content;
 }
 
 .feedtray {
     display: flex;
     background-color: #101204;
     flex: 1 1 auto;
-    padding: 2px;
+    padding: 6px;
+    margin: 4px;
     width: auto;
     font-family: 'cooperbold';
 }
@@ -106,7 +116,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    padding: 2px;
+    padding: 4px;
 }
 
 .feedlnk {
@@ -116,15 +126,13 @@ body {
     color:#5ADEE1;
 }
 
-
 .projlnk {
-    color:#B6C2CF
+    color:#B6C2CF;
 }
 
 .wbtlnk {
-    color:#B6C2CF
+    color:#B6C2CF;
 }
-
 
 .ccbody {
     display: flex;
