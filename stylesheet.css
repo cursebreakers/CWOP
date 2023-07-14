@@ -149,7 +149,8 @@ body {
 .ccheader {
     display: flex;
     flex-wrap: wrap;
-    background-color: #000000;
+    align-self: center;
+    background-color: #111111;
     color: #FCFCFC;
     padding: 8px;
     border: 8px #5ADEE1;
@@ -399,11 +400,18 @@ body {
     font-size: 18px;
 }
 
+.cclogo {
+    display: flex;
+    align-self: center;
+    max-width: 150px;
+}
+
 .reportlink {
     font-size: 16px;
     color: #B6C2CF; 
     font-size: 18px;
 }
+
 
 .footer {
     font-size: 12px;
