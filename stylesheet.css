@@ -154,6 +154,7 @@ body {
     color: #FCFCFC;
     padding: 8px;
     border: 8px #5ADEE1;
+    border-radius: 2px 2px 2px;
     margin-top: 0;
     margin-bottom: 0;
     box-shadow: 1.5px 1.5px 1.5px #1D2125;
@@ -170,6 +171,7 @@ body {
     flex-direction: column;
     margin: 8px;
     margin-top: 0px;
+    border-radius: 2px 2px 2px;
     box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
@@ -180,12 +182,13 @@ body {
     padding: 12px;
     background-color: #FCFCFC;
     border: 2px solid;
+    border-radius: 2px 2px 2px;
     box-shadow: 1.5px 1.5px 1.5px #1D2125;
 }
 
 .colbody {
     margin: 0;
-    background-color: #54494B;
+    background-color: #1E1E24;
     font-family: 'cooperhewitt';
     padding: 2px;
 }
@@ -207,7 +210,7 @@ body {
 .sunsetbar1 {
     display: flex;
     flex: auto;
-    background-color: #54494B;
+    background-color: #1E1E24;
     color: #fcfcfc;
     padding: 4px;
     height: fit-content;
@@ -222,7 +225,7 @@ body {
     display: flex;
     flex: auto;
     font-family: 'cooperhewitt';
-    background-color: #91C7B1;
+    background-color: #55DBCB;
     color: #111111;
     padding: 4px;
     height: fit-content;
@@ -236,7 +239,7 @@ body {
 .sunsetbar3 {
     display: flex;
     flex: auto;
-    background-color: #E2D391;
+    background-color: #75E4B3;
     color: #111111;
     padding: 4px;
     height: fit-content;
@@ -253,7 +256,7 @@ body {
 .sunsetbar4 {
     display: flex;
     flex: auto;
-    background-color: #742511;
+    background-color: #C75000;
     padding: 4px;
     height: fit-content;
     margin-left: 0px;
@@ -296,7 +299,7 @@ body {
 }
 
 .ytplay {
- max-width: 450px;
+ max-width: 400spx;
 }
 
 .colbase {
