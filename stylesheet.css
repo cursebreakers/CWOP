@@ -409,6 +409,21 @@ body {
     max-width: 150px;
 }
 
+.llcbar {
+    display: flex;
+    justify-content: space-evenly;
+    color: #B6C2CF;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.llclinks {
+    color: #B6C2CF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
 .reportlink {
     font-size: 16px;
     color: #B6C2CF; 
