@@ -18,6 +18,12 @@
     src: url(./resources/fonts/montserrat/Montserrat-Regular.otf);
 }
 
+@font-face {
+    font-family: 'montlite';
+    src: url(./resources/fonts/montserrat/Montserrat-Light.otf);
+}
+
+
 .title {
     font-family: 'cooperhewitt';
     text-align: center;
@@ -144,7 +150,7 @@ body {
 }
 
 .llcheader {
-    font-family: 'montserrat';
+    font-family: 'montlite';
     font-size: 28px;
     display: flex;
     align-self: center;
