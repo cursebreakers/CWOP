@@ -151,9 +151,23 @@ body {
 
 .llcheader {
     font-family: 'montlite';
-    font-size: 28px;
+    font-size: 32px;
     display: flex;
     align-self: center;
+}
+
+.llcheader2 {
+    font-family: 'montlite';
+    font-size: 24px;
+    display: flex;
+    align-self: center;   
+}
+
+.llcheader3 {
+    font-family: 'montlite';
+    font-size: 18px;
+    display: flex;
+    align-self: center;    
 }
 
 .llcplatform {
@@ -175,6 +189,8 @@ body {
     margin: 12px;
     width: auto;
     height: fit-content;
+    list-style: none;
+
 }
 
 .colbody {
