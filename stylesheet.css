@@ -13,6 +13,11 @@
     src: url(./resources/fonts/cooper-hewitt.bold.otf)
 }
 
+@font-face {
+    font-family: 'montserrat';
+    src: url(./resources/fonts/montserrat/Montserrat-Regular.otf);
+}
+
 .title {
     font-family: 'cooperhewitt';
     text-align: center;
@@ -133,7 +138,13 @@ body {
 .wbtlnk {
     color:#B6C2CF;
 }
+
+.llcbody {
+    font-family: 'montserrat';
+}
+
 .llcheader {
+    font-family: 'montserrat';
     font-size: 28px;
     display: flex;
     align-self: center;
@@ -389,6 +400,7 @@ body {
     color: #B6C2CF;
     padding: 8px;
     font-size: 18px;
+    font-family: 'montserrat';
 }
 
 .llclinks {
