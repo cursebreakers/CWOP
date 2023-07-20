@@ -36,8 +36,8 @@ body {
     background-color: #111111;
     border-color: #1D2125;
     color: #B6C2CF;
-    margin: auto;
-    min-width: device;
+    margin: 0px;
+    min-width: auto;
 }
 
 .header {
@@ -368,16 +368,16 @@ body {
     justify-content: center;
     background-color: #111111;
     height: auto;
-    padding: 28px;
-    width: auto;
+    padding: 22px;
+    min-width: auto;
 }
-
 
 .logolink {
     display: flex;
     flex: .33 5 0;
     height: auto;
     max-width: 300px;
+    min-width: auto;
 }
 
 .acctlink {
