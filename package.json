@@ -1,0 +1,16 @@
+{
+  "name": "cwop",
+  "version": "1.0.0",
+  "description": "CWOPv1.1 Cursebreakers Web Operations Platform version 1.1  est. July 2023.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Cursebreakers LLC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.0"
+  }
+}
