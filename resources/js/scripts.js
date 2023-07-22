@@ -25,7 +25,7 @@ function opsUpdate() {
     opsList.removeChild(totalItems[sumItems - 1]);
   }
 
-  // Add the new list item to the beginning of the ul element
+  // Add the new list item to the beginning of ul element
   opsList.insertBefore(listItem, opsList.firstChild);
 
   // Clear the input field for the next entry
