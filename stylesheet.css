@@ -115,10 +115,14 @@ body {
     display: flex;
     background-color: #101204;
     flex: 1 1 auto;
+    flex-direction: column;
     padding: 6px;
     margin: 4px;
+    color:#5ADEE1;
     width: auto;
-    font-family: 'cooperbold';
+    height: fit-content;
+    font-family: 'cooperhewitt';
+    list-style-type: none;
 }
 
 .opsfeed {
@@ -130,7 +134,7 @@ body {
     padding: 4px;
 }
 
-.feedlnk {
+#feedlnk {
     font-family: 'cooperhewitt';
     display: flex;
     flex-wrap: wrap;

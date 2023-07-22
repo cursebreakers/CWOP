@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Account</title>
         <link rel="stylesheet" href="../stylesheet.css">
-        <script src="../resources/js/scripts.js"></script>
+        <script src="../resources/js/scripts.js" defer></script>
     </head>
     <body>
       <nav class="navbar">
@@ -18,13 +18,13 @@
       </nav> 
         <div class="construction" id="appstatus">THIS SITE IS UNDER CONSTRUCTION, BUT YOU MAY COME BACK LATER</div>  
         <div class="platform">
-          <div class="p1">Status & Data
-            <ul class="feedtray">
-              <li class="feedlnk">Hmm... Nothing here!</li>
+          <div class="p1">Status/Data Sandbox - WARNING: INPUT DATA WILL NOT BE SAVED 
+            <ul class="feedtray" id="ops">
+              <li class="feedlnk" id="feedlnk"></li>
             </ul>
             <form class="cbport1">
-              <input type="text" id="inputvalue" placeholder="input status">
-              <button type="submit">update</button>
+              <input type="text" id="adStat" placeholder="input status">
+              <button onclick="opsUpdate()">update</button>
             </form>           
           </div>
         </div>

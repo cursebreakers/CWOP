@@ -19,22 +19,17 @@
           </div>      
         </nav>
       <div class="platform"><h2 class="llcheader2">Submission Portal</h2>
-        <div class="p1">
+        <form class="p1" id="submissionForm">
           <h3 class="llcheader3">Enter Your details:</h3>
-          <input type="text" id="emailin" placeholder="emailaddress@example.com">
+          <input type="email" id="emailin" placeholder="emailaddress@example.com">
           <input type="text" id="userin" placeholder="username">
-        </div>
-        <div class="p1">
-          <h3 class="llcheader3">Input URL/Citation and a brief overview of your submission</h3>
-          <input type="text" id="contentin" placeholder="source/citation/URL">
-          <input type="text" id="metain" placeholder="meta/description/summary">
-        </div>
-        <div class="p1">
-          <h3 class="llcheader3">Confirmation</h3>
-          <button>submit</button>
+          <h3 class="llcheader3">Provide URL/Citation and a few brief keywords about your submission:</h3>
+          <textarea id="contentin" name="contentin" rows="2" cols="45" required></textarea>
+          <textarea id="metain" name="metain" rows="4" cols="45" required></textarea>
+          <h3 class="llcheader3">Confirmation:</h3>
+          <button onclick="submitNexus()" id="subBtn">submit</button>
           <p class="p1">You will receive a confirmation email</p>
-        </div>
-      </div>
+        </form>
         <div class="panel">
           <a class="logolink" href="../index.html">
             <img class="logolink" src="../images/cbshocklogo.png" alt="Cursebreakers Thunderchip Logo">

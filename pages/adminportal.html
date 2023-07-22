@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CWOP Admin Portal</title>
   <link rel="stylesheet" href="../stylesheet.css">
-  <script src="../resources/js/scripts.js"></script>
+  <script src="../resources/js/scripts.js" defer></script>
 </head>
 <body>
   <h1 class="header">ADMIN PORTAL</h1>
@@ -21,11 +21,11 @@
   <div class="platform">
     <div class="p1"><h2>Operations Feed: <span class="appstatus4">OFFLINE</span></h2>
       <div class="feedtray">
-        <ul class="opsfeed">
-          <li class="feedlnk">null - awaiting operator input...</li>
-          <li class="feedlnk">null...</li>
-          <li class="feedlnk">null...</li>
-          <li class="feedlnk">null...</li>
+        <ul class="opsfeed" id="ops">
+          <li id="feedlnk">null - awaiting operator input...</li>
+          <li id="feedlnk">null...</li>
+          <li id="feedlnk">null...</li>
+          <li id="feedlnk">null...</li>
         </ul>
       </div>
     </div>
