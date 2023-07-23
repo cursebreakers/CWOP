@@ -1,18 +1,17 @@
-//Admin Status & Ops Feed Functions
+// Admin Status & Ops Feed Functions
 
 function opsUpdate() {
-  //Prevent default submissions
+  // Prevent default submissions
   event.preventDefault();
   // Get input value from "adStat" field
   const adStat = document.getElementById('adStat').value.trim();
-
   // If input is empty, do nothing
   if (adStat === "") {
     return;
   }
   // Create new li, appending the input value
   const listItem = document.createElement('li');
-  listItem.textContent = adStat;
+  listItem.innerHTML = linkMaker(adStat);
 
   // Get the ul element with id "ops"
   const opsList = document.getElementById('ops');
@@ -27,7 +26,68 @@ function opsUpdate() {
 
   // Add the new list item to the beginning of ul element
   opsList.insertBefore(listItem, opsList.firstChild);
-
+  // Save list items to local storage
+  cacheInputs();
   // Clear the input field for the next entry
   document.getElementById("adStat").value = "";
+}
+
+function cacheInputs() {
+  const opsList = document.getElementById('ops');
+  const listItems = opsList.getElementsByTagName("li");
+  
+  const listValues = [];
+  
+  for (let i = 0; i < listItems.length; i++) {
+    listValues.push(listItems[i].textContent);
+  }
+
+  // Save the list items to local storage
+  localStorage.setItem("listItems", JSON.stringify(listValues));
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Load the list items from local storage and populate the list
+  loadCache();
+});
+
+function loadCache() {
+  const opsList = document.getElementById('ops');
+  const storedListItems = localStorage.getItem("listItems");
+
+  if (storedListItems) {
+    const listValues = JSON.parse(storedListItems);
+    // Clear the existing list items before loading the saved ones
+    opsList.innerHTML = ""; 
+
+    listValues.forEach(function (value) {
+      const listItem = document.createElement('li');
+      listItem.innerHTML = linkMaker(value); // Use the createClickableLink function to make the link clickable
+      opsList.appendChild(listItem);
+    });
+  }
+}
+
+// ensures any URLs input are clickable
+function linkMaker(text) {
+  const urlRegex = /https?:\/\/[^\s]+/g; // Regular expression to match URLs
+
+  // Replace URLs in the text with clickable anchor elements
+  const linkedText = text.replace(urlRegex, (url) => {
+    return `<a href="${url}" target="_blank">${url}</a>`;
+  });
+
+  return linkedText;
+}
+
+
+// Event listener for cache clear
+document.getElementById("clearBtn").addEventListener("click", clearData);
+
+function clearData() {
+  const opsList = document.getElementById('ops');
+  opsList.innerHTML = "";
+
+  // Clear the localStorage
+  localStorage.removeItem("listItems");
 }

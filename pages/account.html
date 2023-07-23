@@ -18,13 +18,14 @@
       </nav> 
         <div class="construction" id="appstatus">THIS SITE IS UNDER CONSTRUCTION, BUT YOU MAY COME BACK LATER</div>  
         <div class="platform">
-          <div class="p1">Status/Data Sandbox - WARNING: INPUT DATA WILL NOT BE SAVED 
+          <div class="p1">Status/Data Sandbox - Up to 13 inputs will be saved until localStorage/cache is cleared. 
             <ul class="feedtray" id="ops">
               <li class="feedlnk" id="feedlnk"></li>
             </ul>
             <form class="cbport1">
               <input type="text" id="adStat" placeholder="input status">
-              <button onclick="opsUpdate()">update</button>
+              <button onclick="opsUpdate()">Update</button>
+              <button id="clearBtn">Clear Data</button>
             </form>           
           </div>
         </div>
