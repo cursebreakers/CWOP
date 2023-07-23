@@ -9,6 +9,7 @@ function opsUpdate() {
   if (adStat === "") {
     return;
   }
+
   // Create new li, appending the input value
   const listItem = document.createElement('li');
   listItem.innerHTML = linkMaker(adStat);
@@ -26,8 +27,10 @@ function opsUpdate() {
 
   // Add the new list item to the beginning of ul element
   opsList.insertBefore(listItem, opsList.firstChild);
+
   // Save list items to local storage
   cacheInputs();
+
   // Clear the input field for the next entry
   document.getElementById("adStat").value = "";
 }
@@ -49,6 +52,7 @@ function cacheInputs() {
 document.addEventListener("DOMContentLoaded", function () {
   // Load the list items from local storage and populate the list
   loadCache();
+  
 });
 
 function loadCache() {
@@ -62,17 +66,18 @@ function loadCache() {
 
     listValues.forEach(function (value) {
       const listItem = document.createElement('li');
-      listItem.innerHTML = linkMaker(value); // Use the createClickableLink function to make the link clickable
+      // Keep URLs clickable upon page refresh
+      listItem.innerHTML = linkMaker(value); 
       opsList.appendChild(listItem);
     });
   }
 }
 
-// ensures any URLs input are clickable
+// Ensures URL inputs are clickable
 function linkMaker(text) {
   const urlRegex = /https?:\/\/[^\s]+/g; // Regular expression to match URLs
 
-  // Replace URLs in the text with clickable anchor elements
+  // Appends URL inputs as clickable anchors
   const linkedText = text.replace(urlRegex, (url) => {
     return `<a href="${url}" target="_blank">${url}</a>`;
   });
@@ -80,14 +85,12 @@ function linkMaker(text) {
   return linkedText;
 }
 
-
 // Event listener for cache clear
 document.getElementById("clearBtn").addEventListener("click", clearData);
 
 function clearData() {
   const opsList = document.getElementById('ops');
   opsList.innerHTML = "";
-
   // Clear the localStorage
   localStorage.removeItem("listItems");
 }

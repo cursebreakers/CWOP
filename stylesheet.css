@@ -132,6 +132,7 @@ body {
     flex-direction: column;
     align-content: center;
     padding: 4px;
+    list-style-type: none;
 }
 
 #feedlnk {
