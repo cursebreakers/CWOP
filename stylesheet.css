@@ -385,6 +385,11 @@ body {
     min-width: auto;
 }
 
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .acctlink {
     display: block;
     color: #5ADEE1;
