@@ -9,7 +9,7 @@
     </head>
     <body>
       <div class="construction" id="appstatus">THIS SITE IS UNDER CONSTRUCTION, BUT YOU MAY COME BACK LATER</div>
-      <h1 class="llcheader">Cursebreakers: Nexus</h1>
+      <h1 class="header">Cursebreakers: Nexus</h1>
         <nav class="navbar">
           <div class="navbox">
             <button class="navbut" onclick="window.location.href='../index.html';">HOME</button>
@@ -18,17 +18,18 @@
             <div class="navstatus"><span class="versiontag" id="appstatus">CWOP v1.1, July, 2023</span></div>
           </div>      
         </nav>
-      <div class="platform"><h2 class="llcheader2">Submission Portal</h2>
-        <form class="p1" id="submissionForm">
-          <h3 class="llcheader3">Enter Your details:</h3>
-          <input type="email" id="emailin" placeholder="emailaddress@example.com">
-          <input type="text" id="userin" placeholder="username">
-          <h3 class="llcheader3">Provide URL/Citation and a few brief keywords about your submission:</h3>
-          <textarea id="contentin" name="contentin" rows="2" cols="45" required></textarea>
-          <textarea id="metain" name="metain" rows="4" cols="45" required></textarea>
-          <h3 class="llcheader3">Confirmation:</h3>
-          <button onclick="submitNexus()" id="subBtn">submit</button>
-          <p class="p1">You will receive a confirmation email</p>
+      <div class="nexusplatform"><h2 class="nexusheader">Nexus Portal</h2>
+        <p class="pN">Welcome to the submission portal for the Nexus project.<br>You may use the form below to log entries to the database core.</p>
+        <form class="pN" id="submissionForm">
+          <h3 class="nexusheader2">Enter Your details:</h3>
+          <input class="nexIn" type="email" id="emailin" placeholder="emailaddress@example.com">
+          <input class="nexIn" type="text" id="userin" placeholder="username">
+          <h3 class="nexusheader2">Provide URL/Citation and a few brief keywords about your submission:</h3>
+          <textarea class="nexIn" id="contentin" name="contentin" rows="2" cols="45" required></textarea>
+          <textarea class="nexIn" id="metain" name="metain" rows="4" cols="45" required></textarea>
+          <h3 class="nexusheader2">Confirmation:</h3>
+          <button class="subBtn" onclick="submitNexus()" id="subBtn">submit</button>
+          <p class="pN">You will receive a confirmation email</p>
         </form>
         <div class="panel">
           <a class="logolink" href="../index.html">

@@ -150,41 +150,70 @@ body {
     color:#B6C2CF;
 }
 
-.llcbody {
-    font-family: 'montserrat';
+
+.nexusplatform {
+    background-color: #000000;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.llcheader {
+.pN {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 16px;
+    background-color: #111111;
+    margin: 12px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.nexusheader {
     font-family: 'montlite';
-    font-size: 32px;
-    padding: 8px;
+    display: flex;
+    font-size: 24px;
     display: flex;
     align-self: center;
-    justify-content: center;
 }
 
-.llcheader2 {
+
+.nexusheader2 {
     font-family: 'montlite';
-    font-size: 24px;
+    display: flex;
+    font-size: 18px;
     display: flex;
     align-self: center;   
 }
 
-.llcheader3 {
-    font-family: 'montlite';
-    font-size: 18px;
-    display: flex;
-    align-self: center;    
-}
 
-.llcplatform {
+.nexIn {
     background-color: #000000;
-    display: flex;
-    padding: 8px;
-    justify-content: center;
-    flex-direction: column;
+    color: antiquewhite;
+    max-width: 888px;
+    min-width: 222px;
+    font-family: 'courier';
 }
 
+
+.subBtn {
+    align-self: center;
+    width: fit-content;
+    font-family: 'courier';
+    padding: 8px;
+    font-size: 14px;
+    background-color: #1D2125;
+    color: #B6C2CF;
+    text-shadow: 2px 2px 2px #000000;
+}
 
 .p2 {
     display: flex;
