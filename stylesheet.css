@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'cooperhewitt';
-    src: url(./resources/fonts/cooper-hewitt.book.otf)
+    src: url(./resources/fonts/cooper/cooper-hewitt.book.otf)
 }
 
 @font-face {
     font-family: 'cooperbold';
-    src: url(./resources/fonts/cooper-hewitt.bold.otf)
+    src: url(./resources/fonts/cooper/cooper-hewitt.bold.otf)
 }
 
 @font-face {
