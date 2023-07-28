@@ -1,5 +1,6 @@
-// Admin Status & Ops Feed Functions
 
+
+// Admin Status & Ops Feed Functions
 function opsUpdate() {
   // Prevent default submissions
   event.preventDefault();
@@ -96,11 +97,10 @@ function clearData() {
 }
 
 // Event listener for Nexus Submit Button
-// Returns message that form is offline and to come back later
-
 document.getElementById(subBtn)
 
 function submitNexus() {
+  // Returns message that platform is offline
   alert("Input not received... Nexus Offline")
 }
 
