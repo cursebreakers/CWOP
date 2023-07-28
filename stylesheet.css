@@ -239,7 +239,7 @@ body {
 .colheader{
     margin: 0;
     background-color: #000000;
-    font-family: 'cooperhewitt';
+    font-family: 'montlite';
     color: #FCFCFC;
     display: flex;
     flex-direction: column;
@@ -256,6 +256,7 @@ body {
     background-color: #111111;
     color: #fcfcfc;
     padding: 4px;
+    font-family: 'montlite';
     height: fit-content;
     margin-left: 0px;
     margin-right: 0px;
@@ -331,8 +332,7 @@ body {
     flex-direction: column;
     height: fit-content;
     align-items: center;
-    background-color: #101204;
-    color: #111111;
+    background-color: rgba(16,18,4,0.75);
     font-size: 20px;
     padding: 8px;
     padding-bottom: 12px;
@@ -366,10 +366,9 @@ body {
     flex-direction: column;
     background-color: #111111;
     color: #000000;
-    padding: 4px;
-    margin: 6px;
+    padding: 8px;
+    margin: 8px;
     box-shadow: 1px 1px 1px #FCFCFC;    
-
 }
 
 .coltray {
@@ -380,8 +379,8 @@ body {
     background-color: #F1F7ED;
     color:#000000;
     font-size: 18px;
-    padding: 6px;
-    margin: 6px #000000;
+    padding: 8px;
+    margin: 8px #000000;
     box-shadow: 1px 1px 1px #FCFCFC;
     flex-direction: column;
 }
@@ -389,11 +388,14 @@ body {
 .p3 {
     display: flex;
     flex: 1 1 auto;
-    background-color: #E2D391;
-    padding: 6px;
-    margin: 6px;
+    background-color: #111111;
+    color: #F1F7ED;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px;
+    max-width: 500px;
     width: fit-content;
-    box-shadow: 2px 2px 2px #111111;
+    box-shadow: 2px 2px 2px #F1F7ED;
 }
 
 .panel {
@@ -441,6 +443,8 @@ body {
 .colpanel {
     display: flex;
     justify-content: center;
+    opacity: 99%;
+    background-color: #111111;
 }
 
 .cclink {
