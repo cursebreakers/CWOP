@@ -94,3 +94,15 @@ function clearData() {
   // Clear the localStorage
   localStorage.removeItem("listItems");
 }
+
+// Event listener for Nexus Submit Button
+// Returns message that form is offline and to come back later
+
+document.getElementById(subBtn)
+
+function submitNexus() {
+  alert("Input not received... Nexus Offline")
+}
+
+
+
