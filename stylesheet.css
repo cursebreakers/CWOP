@@ -23,7 +23,6 @@
     src: url(./resources/fonts/montserrat/Montserrat-Light.otf);
 }
 
-
 .title {
     font-family: 'cooperhewitt';
     text-align: center;
@@ -104,6 +103,7 @@ body {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
+    flex-wrap: wrap;
     font-size: 18px;
     padding: 16px;
     background-color: #111111;
@@ -111,6 +111,7 @@ body {
     width: fit-content;
     max-width: 750px;
     height: fit-content;
+    align-items: center;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 1px #5ADEE1;
 }
@@ -146,7 +147,6 @@ body {
     color:#5ADEE1;
 }
 
-
 .projlnk {
     color:#B6C2CF;
 }
@@ -154,7 +154,6 @@ body {
 .wbtlnk {
     color:#B6C2CF;
 }
-
 
 .nexusplatform {
     background-color: #000000;
