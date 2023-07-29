@@ -3,6 +3,15 @@
 
 //Begin Dropbox Nexus Core Integration:
 
+// Event listener for Nexus Submit Button
+document.getElementById(subBtn)
+
+function submitNexus() {
+  // Returns message that platform is offline
+  alert("Input not received... Nexus Offline")
+}
+
+
 document.getElementById('submissionForm').addEventListener("submit", function(event) {
     event.preventDefault(); //prevents default form submission
   
@@ -20,11 +29,11 @@ document.getElementById('submissionForm').addEventListener("submit", function(ev
       metadata: metadata,
     };
     //calls Paper API Shipment Function
-    submitNexus(submissionData)
+    shipNexus(submissionData)
   });
   
   //Paper API Shipment, passes Nexus Submission to Dropbox
-  function submitNexus(data) {
+  function shipNexus(data) {
   //Replace 'API_ENDPOINT_URL' with actual API Endpoint
   const API_ENDPOINT_URL = "";
   

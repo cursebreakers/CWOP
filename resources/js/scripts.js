@@ -22,7 +22,7 @@ function opsUpdate() {
   const sumItems = totalItems.length;
 
   if (sumItems >= 13) {
-    // If there are already six list items, remove the last one
+    // If there are 13 list items, remove the last one
     opsList.removeChild(totalItems[sumItems - 1]);
   }
 
@@ -51,9 +51,8 @@ function cacheInputs() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Load the list items from local storage and populate the list
+  // Load the list items from localStorage
   loadCache();
-  
 });
 
 function loadCache() {
@@ -96,13 +95,7 @@ function clearData() {
   localStorage.removeItem("listItems");
 }
 
-// Event listener for Nexus Submit Button
-document.getElementById(subBtn)
 
-function submitNexus() {
-  // Returns message that platform is offline
-  alert("Input not received... Nexus Offline")
-}
 
 
 
